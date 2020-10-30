@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: saddlebrown;
+}
+
+#header {
+    border: 10px black solid;
+    background-color: white;
+    margin: 100px 200px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: rgb(228, 46, 106);
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.message_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 200px;
+    height: 900px;
+}
+.message_section {
+    border: 2px black solid;
+    text-align: center;
+    padding: 30px 0pc;
+}
+
+.message_section--part1 {
+    background-color: burlywood;
+}
+
+.message_section--part2 {
+    background-color: rgb(85, 153, 71);
+}
+
+.message_section--part3 {
+    background-color: rgb(211, 114, 167);
+}
+
+button {
+    margin-top: 50px;
+}
